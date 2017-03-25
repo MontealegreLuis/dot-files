@@ -4,19 +4,19 @@
   excludesfile = ~/.gitignore
 
 [user]
-	name = Luis Montealegre
-	email = montealegreluis@gmail.com
+  name = Luis Montealegre
+  email = montealegreluis@gmail.com
 
 [alias]
-    prev = checkout HEAD^1
-    next = "!sh -c 'git reset --hard && git clean -f -d && git log --reverse --pretty=%H master | awk \"/$(git rev-parse HEAD)/{getline;print}\" | xargs git checkout'"
-    first = "!sh -c 'git checkout `git rev-list --max-parents=0 HEAD`'"
+  prev = checkout HEAD^1
+  next = "!sh -c 'git reset --hard && git clean -f -d && git log --reverse --pretty=%H master | awk \"/$(git rev-parse HEAD)/{getline;print}\" | xargs git checkout'"
+  first = "!sh -c 'git checkout `git rev-list --max-parents=0 HEAD`'"
 
 [color]
   branch = auto
   diff = auto
   status = auto
-	ui = auto
+  ui = auto
 
 [color "branch"]
   current = yellow reverse
