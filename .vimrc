@@ -7,9 +7,11 @@ let mapleader=','               " Make , the default leader
 set number                      " Activate line numbers
 
 
+
 " *** Visuals ***
 let g:solarized_termcolors=256
 colorscheme solarized
+
 
 
 " *** Search ***
