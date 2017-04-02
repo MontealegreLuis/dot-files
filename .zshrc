@@ -10,6 +10,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias composer="composer --ansi"
 alias systemctl='systemctl --no-pager'
+alias tree="tree -C"
 
 export JAVA_HOME="/usr/java/latest"
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
@@ -18,3 +19,9 @@ export VAGRANT_DEFAULT_PROVIDER=virtualbox
 NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 export PATH=$HOME/bin:$PATH
+
+# Get color support for 'less'
+export LESS="--RAW-CONTROL-CHARS"
+
+# Use colors for less, man, etc.
+[[ -f ~/.LESS_TERMCAP ]] && . ~/.LESS_TERMCAP
