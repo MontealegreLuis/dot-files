@@ -20,6 +20,9 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 export PATH=$HOME/bin:$PATH
 
+# Composer global packages
+export PATH=~/.config/composer/vendor/bin:$PATH
+
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
 
