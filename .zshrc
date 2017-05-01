@@ -20,6 +20,9 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 PATH="$NPM_PACKAGES/bin:$PATH"
 export PATH=$HOME/bin:$PATH
 
+# No cows for ansible
+export ANSIBLE_NOCOWS=1
+
 # Composer global packages
 export PATH=~/.config/composer/vendor/bin:$PATH
 
