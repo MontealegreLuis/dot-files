@@ -1,11 +1,14 @@
 [core]
-  editor = nano
+  editor = vim
   autocrlf = input
   excludesfile = ~/.gitignore
 
 [user]
   name = Luis Montealegre
   email = montealegreluis@gmail.com
+
+[commit]
+  template = ~/.gitmessage
 
 [alias]
   prev = checkout HEAD^1
