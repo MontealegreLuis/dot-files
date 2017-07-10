@@ -12,6 +12,7 @@ alias composer="composer --ansi"
 alias systemctl='systemctl --no-pager'
 alias tree="tree -C"
 alias pbcopy='xclip -selection clipboard'
+eval $(thefuck --alias damn)
 
 export JAVA_HOME="/usr/java/latest"
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
